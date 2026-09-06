@@ -3,4 +3,22 @@ path_server/rmf_plan_executor/src/lib.rs
 next_gen_prototype/
 rmf_mock_robot_sim/rmf_mock_robot_sim/mock_robot_sim_node.py
 Cargo.lock
+
+# Python cache & test
 *.pyc
+__pycache__/
+.pytest_cache/
+
+# ROS 2 & Colcon build / install / log directories
+build/
+install/
+log/
+rmf_ws/
+
+# Logs & Simulation outputs
+mock_sim_logs/
+*.log
+
+# Rust target
+target/
+
