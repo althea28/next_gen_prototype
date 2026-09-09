@@ -21,3 +21,6 @@ rmf_ws/
 
 # Rust target
 target/
+
+# Ignore colcon ignore marker files
+COLCON_IGNORE
