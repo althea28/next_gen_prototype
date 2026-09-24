@@ -61,7 +61,10 @@ def generate_launch_description():
         executable='robot_spawner',
         name='robot_spawner',
         output='both',
-        parameters=[{'use_destination_server': True}]
+        parameters=[{
+            'use_destination_server': True,
+            'config_file': config_file,
+        }]
     )
 
     # 3. Start exactly one selectable destination implementation.
